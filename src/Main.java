@@ -4,7 +4,7 @@ public class Main {
         int replenishment = 1345; // сумма пополнения
         int fix = 100; // полные 100 рублей пополнения для начисления 1-го рубля
 
-        int bonus;
+        int bonus; // условие начисления бонуса
         if (replenishment >= 1000) {
             bonus = (replenishment / fix);
         } else {
