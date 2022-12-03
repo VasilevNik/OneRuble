@@ -5,10 +5,10 @@ public class Main {
         int fix = 100;
 
         int bonus;
-        if (popolnenie>=1000) {
-            bonus = (popolnenie/fix);
+        if (popolnenie >= 1000) {
+            bonus = (popolnenie / fix);
         } else {
-            bonus=0;
+            bonus = 0;
         }
 
         System.out.println("Начисленный бонус - " + bonus + " руб.");
